@@ -42,19 +42,29 @@ text-align:right;
 #graphcontainer, #graph {
 margin:0;	
 }
+#graphcontainer {
+	position:absolute;
+	top:0;	
+}
 #graph {
 display:block;
 width:300px;
-height:300px;
+height:400px;
 background-color:white;
 background-image:url('../images/Graph-paper.png');
 background-position:center;
-background-size:135% auto;
-
+background-size:175% auto;
+position:absolute;
+top:55px;
 }
 #graphcontainer {
 display:none;
 position:absolute;
 left:0;
 top:100;
+}
+#navigraph {
+position:absolute;
+bottom:0;
+display:none;
 }
